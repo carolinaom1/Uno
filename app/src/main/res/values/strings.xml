@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Uno</string>
+    <string name="help_description">How does this application work? /nIdeally, you would start out
+        at our homepage (the one that says “Welcome to UnoWithFriends!”) and would start a new game by
+        pressing the button that says “New Game”. Then, our application should take you to a new
+        screen where you are asked how many total players you would like to have in your game,
+        which can be up to 4 players. /nIf you choose to exit a game before someone is determined
+        as the winner, </string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_red"
+    android:id="@+id/main_activity"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:text="Welcome to UnoWithFriends!"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/new_game_button"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:layout_marginLeft="390px"
+        style="@style/buttons"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_title"
+        />
+
+    <Button
+        android:id="@+id/resume_game_button"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Resume Game"
+        android:layout_marginLeft="170px"
+        style="@style/buttons"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/new_game_button"
+        />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:text="Settings"
+        style="@style/buttons"
+        app:layout_constraintLeft_toRightOf="@id/resume_game_button"
+        app:layout_constraintTop_toBottomOf="@id/new_game_button"
+        />
+
+    <Button
+        android:id="@+id/instructions_button"
+        android:layout_height="wrap_content"
+        android:text="Game Instructions"
+        style="@style/buttons"
+        app:layout_constraintLeft_toLeftOf="@id/resume_game_button"
+        app:layout_constraintTop_toBottomOf="@id/resume_game_button"
+        />
+
+    <Button
+        android:id="@+id/help_button"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:text="Help Page"
+        style="@style/buttons"
+        app:layout_constraintLeft_toRightOf="@id/instructions_button"
+        app:layout_constraintTop_toBottomOf="@id/settings_button"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
